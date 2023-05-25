@@ -50,7 +50,7 @@ void loop()
     delay(1000);
     value6 = analogRead(A0);
     delay(1000);
-    value = (value1+value2+value3+value4+value5+value6)/4;
+    value = (value1+value2+value3+value4+value5+value6)/6;
     Serial.print("ecg readings: ");
     Serial.println(value);
     delay(2000);}
